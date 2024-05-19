@@ -55,10 +55,13 @@ public class persegipanjang extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
         jLabel1.setText("LUAS & KELILING PERSEGI PANJANG");
 
+        tPanjang.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+
         jLabel2.setText("Panjang");
 
         jLabel3.setText("Lebar");
 
+        tLebar.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         tLebar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tLebarActionPerformed(evt);
